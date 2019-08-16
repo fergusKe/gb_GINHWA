@@ -1,0 +1,45 @@
+#main {
+  width: 670px;
+  margin: 50px auto 0;
+  color: #727171;
+  font-size: 16px;
+}
+#main .main-title {
+  font-size: 20px;
+  color: #333;
+}
+#main .main-title ~ .main-title {
+  margin-top: 50px;
+}
+#main .main-text {
+  margin-top: 30px;
+  line-height: 30px;
+}
+#main .main-text .bus ~ .bus {
+  margin-top: 20px;
+}
+#main .google-map {
+  margin: 80px 0 30px 0;
+}
+#main .google-map span {
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  left: 10px;
+  font-size: 22px;
+}
+#main .google-map a {
+  color: #727171;
+}
+#main .map-image {
+  width: 810px;
+  margin-left: -45px;
+}
+#main .map-image img {
+  width: 100%;
+}
+#main .route {
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}

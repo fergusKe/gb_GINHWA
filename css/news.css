@@ -1,0 +1,21 @@
+#main {
+	margin: 60px auto 100px;
+	text-align: center;
+}
+#main .date {
+	width: 150px;
+	padding: 5px 0;
+}
+#main .headline {
+	width: 150px;
+}
+#main .issue {
+	width: 660px;
+}
+#main tr~tr {
+	color: #727171;
+	border-bottom: 1px solid #CCC;
+}
+#main tr~tr td {
+	padding: 45px 0;
+}

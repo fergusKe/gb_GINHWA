@@ -1,0 +1,111 @@
+#main {
+  width: 960px;
+  margin: 40px auto 0;
+  color: #727171;
+  font-size: 14px;
+}
+
+.note {
+  text-align: center;
+  font-size: 22px;
+  color: #333;
+}
+
+.warn-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: #333;
+}
+
+.warn-cont {
+  text-align: center;
+}
+
+.my-textarea {
+  width: 947px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 2px solid #BBB;
+  margin-top: 10px;
+}
+
+.quation-input {
+  width: 465px;
+  height: 35px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 2px solid #BBB;
+  margin-top: 15px;
+}
+.quation-input ~ .quation-input {
+  float: right;
+}
+
+.my-checkbox {
+  margin-top: 35px;
+}
+.my-checkbox form ~ form {
+  margin-top: 15px;
+}
+.my-checkbox form input {
+  position: relative;
+  top: 1px;
+}
+
+.account {
+  margin-right: -8px;
+}
+.account h3 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333;
+}
+.account input {
+  float: left;
+  width: 465px;
+  height: 35px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 2px solid #BBB;
+  margin-top: 15px;
+  margin-right: 8px;
+}
+.account::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.caution {
+  width: 100%;
+  height: 135px;
+  background-color: #eee;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.caution-cont {
+  padding: 60px 0 0 60px;
+}
+.caution-cont a {
+  color: #ae9526;
+}
+.caution-cont input {
+  position: relative;
+  top: 2px;
+}
+.caution-cont form {
+  display: inline-block;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #ae9526;
+  color: #FFF;
+  margin-bottom: 100px;
+}

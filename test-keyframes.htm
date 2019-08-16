@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+@-webkit-keyframes bg {
+    0% {
+        background-position: 0 0;
+        opacity: 0;
+    }
+    2% {
+        background-position: 2% 2%;
+        opacity: 1;
+    }
+    99% {
+        background-position: 99% 99%;
+    }
+    100% {
+        background-position: 100% 100%;
+        opacity: 0;
+    }
+}
+body {
+    background: #000;
+}
+p {
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 190px;
+    background: url(http://i.imgur.com/WWwVY.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: bg 60s linear infinite;
+}
+p:before {
+    content: "web";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: -webkit-gradient( linear, 0 0, 0 100%, color-stop(.4, rgba(0, 0, 0, 0)), color-stop(.85, #000));
+}
+</style>
+
+<body>
+    <p>Web</p>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.slider-gallery {
+  margin-bottom: 0px;
+}
+
+.images-Content {
+  height: 180px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.images-Content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery-arrow {
+  display: block;
+  width: 958px;
+  border-top: 3px solid #434343;
+  margin-bottom: 100px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.gallery-arrow .downIcon {
+  display: inline-block;
+}
+.gallery-arrow .upIcon {
+  display: none;
+}
+.gallery-arrow img {
+  padding-top: 10px;
+}
+
+.open {
+  height: 733px;
+}
+
+.down .downIcon {
+  display: none;
+}
+.down .upIcon {
+  display: inline-block;
+}

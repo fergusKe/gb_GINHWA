@@ -1,0 +1,75 @@
+body {
+	background: url(../img/default/bg4.jpg) fixed;
+    background-size: cover;
+    background-position: center center;
+}
+#nav .together a {
+	color: #121212;
+}
+#main #cont {
+	position: relative;
+	background: none;
+	text-align: center;
+	/*background: url(../img/together/mooning.png);*/
+	padding: 0 0 50px;
+}
+#main #cont:after {
+	content: "";
+	/*background: url(../img/together/mooning.png);*/
+	opacity: 0.9;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;  
+}
+#main #cont img {
+	/*width: 100%;*/
+}
+#main #cont ul {
+	width: 415px;
+	margin: 55px auto 0;
+	color: #457;
+}
+#main #cont ul.list2 {
+	width: 455px;
+}
+#main #cont ul li {
+	list-style: none;
+	text-align: center;
+}
+#main #cont ul .price~li {
+	display: inline-block;
+	width: 34px;
+	vertical-align:text-top;
+	font-size: 24px;
+}
+#main #cont ul li.price {
+	  padding: 0px 0 20px 0;
+	  text-align: left;
+	  font-size: 30px;
+	  font-weight: 700;
+	  text-align: center;
+}
+
+/*.bb-item {
+	background: url(../img/together/book2.jpg);
+	background-size: cover;
+}
+.bb-item .bookball {
+	position: absolute;
+	left: 5%;
+	top: 0;
+	width: 30%;
+	opacity: .3;
+}
+.bb-item .bookball img {
+	position: absolute;
+}
+.bb-item .bookfan {
+	position: absolute;
+	right: 5%;
+	bottom: 0;
+	width: 30%;
+}*/

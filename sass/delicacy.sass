@@ -1,0 +1,131 @@
+@import compass/css3
+#main
+	width: 960px
+	margin: 40px auto 0
+	color: #727171
+.note
+	text-align: center
+	font-size: 22px
+	color: #333
+.warn
+	display: inline-block
+	color: #57402F
+	padding-left: 245px
+	margin: 30px 0 40px
+	line-height: 25px
+.menu
+	font-size: 0
+	text-align: center
+	li
+		display: inline-block
+		background: #E4E4E4
+		height: 30px
+		line-height: 30px
+		color: #9E948B
+		font-size: 16px
+		padding: 0 22px
+		text-align: center
+		cursor: pointer
+		&~li
+			margin-left: 3px
+		&.even
+			background: #F3F3F1
+		&:hover
+			color: #C2B16B
+	&~.menu
+		margin-top: 3px
+#main
+	color: #57402F
+	.BookBlock
+		margin-top: 40px
+		.type
+			font-size: 22px
+			color: #333
+			text-align: center
+			margin-top: 110px
+			margin-left: 36px
+		.type-list
+			text-align: left
+			margin-left: 138px
+			margin-top: 50px
+			li
+				margin-bottom: 7px
+				.name
+					display: inline-block
+					min-width: 120px
+			&.toMach
+				margin-top: 30px
+				li
+					margin-bottom: 3px
+			.remark
+				font-size: 14px
+				margin-top: -10px
+		.service-fee
+			position: absolute
+			top: 700px
+			left: 35px
+			right: 0
+			margin: 0 auto
+		.bb-item-right
+			.type
+				margin-left: -36px
+			.type-list
+				margin-left: 100px
+			.service-fee
+				left: -35px
+.slider-gallery
+	width: 960px
+	position: relative
+	margin: auto
+	overflow: hidden
+	margin-top: 50px
+	margin-bottom: 100px
+	font-size: 0
+	.slider-gallery-Content
+		position: relative
+		height: 640px
+		li
+			position: absolute
+			left: 0
+			top: 0
+			opacity: 0
+			transition: 1s
+			img
+				width: 100%
+		.active-slide
+			opacity: 1
+	.images-Content
+		margin-top: 15px
+		margin-right: -10px
+		li
+			float: left
+			width: 98px
+			margin-right: 5px
+			margin-bottom: 5px
+			cursor: pointer
+			transition: 1s
+			padding: 2px
+			img
+				width: 100%
+				opacity: .5
+		.active-slide
+			background: #B2A252
+			img
+				opacity: 1
+
+	// .slider-gallery-Bar
+	// 	position: absolute
+	// 	width: 100%
+	// 	text-align: center
+	// 	height: 30px
+	// 	bottom: 10px
+	// 	li
+	// 		background-color: #ccc
+	// 		margin: 10px
+	// 		display: inline-block
+	// 		width: 15px
+	// 		height: 15px
+	// 		border-radius: 50%
+	// 		transition: .5s
+	// 	.active-slide
+	// 		background-color: #333
